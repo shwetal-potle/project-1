@@ -7,11 +7,34 @@
 }
 
 body{
+    width: 100vw;
+    height: 100vh;
     font-family: var(--figtree);
     background-color: var(--yellow);
     color: var(--black);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main{
+    width: fit-content;
+    height: fit-content;
     background-color: var(--white);
+    width: 80vw;
+}
+
+*,*::before*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 18px;
+}
+
+image container img{
+    
 }
